@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    <link rel="stylesheet" href="pagina3.css">
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1> O CSS <h1>
+
+<p><strong> Data de criação <p><strong>
+
+    <p id="tituloformascss"> Podemos incluir blablabla</p>
+    <p class="vermelho"> A o seletor vai deixar vermelho, é um seletor por classe, ou seja, ele vai selecionar tudo que estiver categorizado como classe</p>
+
+<dl>
+<dt>Css incorporado no documento 
+    <dt> CSS Inline </dt>
+    <dd> Quando definimos código css de estilizaçãoi no próprio elemento HTML como: <span
+        style="color:red">Texto de cor vermelha com CSS inline </span> </dd>
+
+
+<dl>
+
+</body>
+</html>

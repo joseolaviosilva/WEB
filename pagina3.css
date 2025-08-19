@@ -1,0 +1,14 @@
+/** seletor{ propriedade:valor;} **/
+
+p{
+background-color: blue;
+}
+
+#tituloformascss{
+    background-color: brown;
+}
+
+.vermelho{
+    color: red;
+    
+}
