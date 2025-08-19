@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina 2 HTML básico</title>
+    <style>
+        img{
+            width: 700px;
+            height: 500px;
+            border: 3px solid #000000;
+            border-radius: 30ch; 
+        }
+        img:hover{
+            border:#FFFFFF;
+            width: 500;
+            height: 300; 
+            box-shadow: #eb50b0;
+        }
+        h1{
+            color: rgb(41, 41, 121);
+            background-color: #888888;
+    }
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+    </style>
+</head>
+    <body>
+       <div> 
+        <h1>titulo grande</h1>
+        <h2>titulo um pouco menor</h2>
+        <h3>um pouco menor</h3>
+        <h4>menor ainda</h4>
+        <h5>menorzinho</h5>
+        <h6>mais menorzinho ainda</h6>
+       </div>
+       <div> 
+       
+        <strong>negrito</strong> </br>
+        <em>italico</em> </br>
+        <small>texto pequeno</small> </br>
+        <mark>marcado</mark> </br>
+        <del>riscado</del> </br>
+       </div>
+    <div>
+        <h2>Lista de itens</h2>
+        <p>Lista de proteínas</p>
+            <ol reversed>
+                <li>Carne</li>
+                <li>Frango</li>
+                <li>Porco</li>
+                <li>Linguiça</li>
+                <li>Camarão</li>
+            </ul>
+        <p>lista de definição</p>
+        <dl>
+            <dt>café</dt>
+            <dd>bebida escura amarga</dd>
+            <dt>agua</dt>
+            <dd>bebida natural deliciosa</dd>
+        </dl>
+    </div>    
+
+    <div>
+        <h2>Imagens</h2>
+        <img src="./Chas.jpg" alt="Imagem de uns Chas a"> 
+    </div>
+    <div>
+        <h2>Tabela</h2>
+        <table>
+            <tr>
+                <th> Cidade</th>
+                <th> Estado</th>
+                <th> Universidade</th>
+            </tr>
+            <tr>
+                <td> Florianópolis</td>
+                <td> Santa Catarina</td>
+                <td> UFSC</td>
+            </tr>
+        </table>
+    </div>
+
+        <div>
+            <h2>Formularios</h2>
+            <label for="nomeUsuario">Nome</label>
+            <input id = "nomeUsuario" type="text"> <br>
+
+            <label for="cor">cor</label>
+            <input id="cor" type="color"> <br>
+
+            <label for="dtNascimento">Data de Nascimento</label>
+            <input id="dtNascimento" type="date"> <br>
+
+            <label for="email">Email</label>
+            <input id="email" type="email"><br>
+
+            <label for="endereco">Endereço</label>
+            <input id="endereco" type="text"><br>
+
+            <textarea name="oi" id="observacoes" rows="4">Escreva observações...</textarea>
+
+            <br>
+            
+            <button>Pronto</button>
+
+        </div>
+
+    </body>
+</html>
