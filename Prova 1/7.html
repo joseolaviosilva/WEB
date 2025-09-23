@@ -7,23 +7,57 @@
 </head>
     <style>
 
+        #container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
     #x1{
         background-color: green;
+        border-radius: 50%;
+        width: 20vh;
+        height: 20vh;
     }
     #x2{
         background-color: blue;
+        border-radius: 50%;
+        width: 20vh;
+        height: 20vh;
     }
     #x3{
         background-color: blueviolet;
+        border-radius: 50%;
+        width: 20vh;
+        height: 20vh;
     }
     #x4{
         background-color: red;
+        border-radius: 50%;
+        width: 20vh;
+        height: 20vh;
     }
     #x5{
         background-color: yellow;
+        border-radius: 50%;
+        width: 20vh;
+        height: 20vh;
     }
     #x1{
-        position: fixed;
+        position: fixed; left: 0px;
     }
     #x2{
         position: fixed; right: 0px;
@@ -40,12 +74,14 @@
     }
     </style>
 <body>
+    <div id="container">
     <div class="container">
     <div class="box" id="x1"></div>
     <div class="box" id="x2"></div>
     <div class="box" id="x3"></div>
     <div class="box" id="x4"></div>
     <div class="box" id="x5"></div>
+    </div>
     </div>
 </body>
 </html>
