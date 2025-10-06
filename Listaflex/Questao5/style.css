@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+article {
+    flex-grow: 1;
+    background-color: #f0f0f0;
+}
+
+aside {
+    width: 200px;
+    background-color: #fffbe6;
+    order: 1;
+}
+
+nav {
+    width: 150px;
+    background-color: #e6fffa;
+    order: 2;
+}
+
+header, footer, article, aside, nav {
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header, footer {
+    background-color: #b8e994;
+    height: 80px;
+}

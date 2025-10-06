@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    font-family: sans-serif;
+}
+
+.stories-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-story {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 80px;
+    height: 350px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.card-story.ativo {
+    width: 400px;
+}
+
+.card-story .conteudo {
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+.card-story .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-story.ativo .texto {
+    display: block;
+}
+
+.card-story .texto {
+    display: none;
+}
+
+.card-story .texto h4 {
+    margin: 0;
+}
+
+.card-story .texto span {
+    font-size: 0.8em;
+    opacity: 0.8;
+}
